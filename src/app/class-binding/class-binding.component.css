@@ -1,0 +1,17 @@
+.on{
+    color: aquamarine;
+    
+}
+.two{
+    color: crimson;
+    
+}
+.text_succe{
+    color: green;
+}
+.text_danger{
+    color: red;
+}
+.text_special{
+    font-style: italic;
+}

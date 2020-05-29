@@ -1,0 +1,27 @@
+<h1>In this we are doing data interpolation or property interpolation as we 
+  csnt get = symbol in string so we use this [] <u>sytax</u>
+</h1><h3>
+<input type="text" id="myId" ><br><br>
+<input type="text" id="{{myId}}" ><br><br>
+<input type="text" [id]="myId" ><br><br>
+<input disabled="false" type="text" id="{{myId}}" ><br><br>
+<input disabled="true" type="text" id="myId" ><br><br>
+<input [disabled]='false' type="text" id="{{myId}}" ><br><br>
+<input [disabled]=true type="text" id="{{myId}}" ><br><br>
+<h1>[disabled]=true type="text" id="{{data}}"</h1>
+[myId]=10+20<br>
+<h2>in property binding we write <u>[property]</u></h2>
+<h2>in string interpolation we write +<u>{{data}} eg id disabled class </u></h2>
+</h3>
+
+<hr>
+<h2 style="color:yellow; background-color: darkorchid;">stylecompstarted</h2><hr>
+<app-style-class-binding></app-style-class-binding>
+<hr>
+<h2 style="color:yellow; background-color: darkorchid;">stylecomp Ends in apphtml</h2>
+<hr >
+<h2 style="color:yellow; background-color: darkorchid;">class binding comp started in apphtml</h2>
+<hr>
+<app-class-binding></app-class-binding>
+<h2 style="color:yellow; background-color: darkorchid;">class binding comp ended in apphtml</h2>
+<app-atrribute-binding></app-atrribute-binding>
